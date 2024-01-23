@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "867562556030",
+    "project_id": "duongst-9e232",
+    "storage_bucket": "duongst-9e232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867562556030:android:9496692b0da1ce56baa62f",
+        "android_client_info": {
+          "package_name": "com.example.dong_st"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4XMVQ8UlR2s7qkKszRxgZI4RL1M7CLAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867562556030:android:20c3462f22d3c74bbaa62f",
+        "android_client_info": {
+          "package_name": "com.example.doo_duong"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4XMVQ8UlR2s7qkKszRxgZI4RL1M7CLAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867562556030:android:fb84a51aa7c116cfbaa62f",
+        "android_client_info": {
+          "package_name": "com.example.note_st"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4XMVQ8UlR2s7qkKszRxgZI4RL1M7CLAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
