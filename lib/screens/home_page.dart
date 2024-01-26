@@ -59,7 +59,36 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
               ],
-            )
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(30, 30, 30, 0),
+                      child: Image.asset(
+                        'assets/img/Hero.jpg',
+                        width: 120,
+                      ),
+                    ),
+                    const Text('Hero')
+                  ],
+                ),
+                Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(30, 30, 30, 0),
+                      child: Image.asset(
+                        'assets/img/Pong.jpg',
+                        width: 120,
+                      ),
+                    ),
+                    const Text('Pong')
+                  ],
+                ),
+              ],
+            ),
           ],
         ),
       ),

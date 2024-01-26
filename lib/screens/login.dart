@@ -98,8 +98,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                       errorText: 'this field is required')
                                   .call,
                               obscureText: true,
-                              onChanged: (psw) {
-                                profile.password = psw;
+                              onSaved: (psw) {
+                                profile.password = psw!;
                               },
                               style: const TextStyle(fontSize: 15),
                             ),
@@ -114,7 +114,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   if (fromkey.currentState!.validate()) {
                                     fromkey.currentState!.save();
                                     try {
-                                      FirebaseAuth.instance
+                                      await FirebaseAuth.instance
                                           .signInWithEmailAndPassword(
                                               email: profile.email,
                                               password: profile.password)
@@ -132,9 +132,10 @@ class _LoginScreenState extends State<LoginScreen> {
                                                   return const userPage();
                                                 }))
                                               });
-                                    } on FirebaseAuthException catch (e) {
+                                    } on FirebaseAuthException catch (_) {
                                       Fluttertoast.showToast(
-                                          msg: e.message!,
+                                          msg:
+                                              'Email or password is incorrect.',
                                           gravity: ToastGravity.CENTER);
                                     }
                                   }
