@@ -140,9 +140,9 @@ class _LoginScreenState extends State<LoginScreen> {
                                     }
                                   }
                                 },
-                                icon: const Icon(Icons.add),
+                                icon: const Icon(Icons.login),
                                 label: const Text(
-                                  'register',
+                                  'login',
                                   style: TextStyle(fontSize: 15),
                                 ),
                                 style: ElevatedButton.styleFrom(
